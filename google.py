@@ -30,4 +30,4 @@ with open(filename, 'a', newline='') as f:
         writer.writerow([url])
 
 # Play sound notification when done
-winsound.PlaySound('C:/Users/david/OneDrive/Projects_Mac/scripts-chat-ai/Wordpress+Web/webscrapping-works/audio/youve-got-mail-sound.wav', winsound.SND_FILENAME)
+winsound.PlaySound('C:/Users/david/audio/youve-got-mail-sound.wav', winsound.SND_FILENAME)
